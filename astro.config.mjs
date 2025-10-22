@@ -5,6 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
+		base: '/multimedia-systems/',
 		starlight({
 			title: 'نظم الوسائط المتعددة',
 			customCss: ['./src/styles/custom.css'],
